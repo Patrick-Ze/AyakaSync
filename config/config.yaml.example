@@ -1,0 +1,10 @@
+account:
+# 在cookie的后面填写米游社的Cookie，例如
+# cookie: _MHYUUID=000a0a00-0000-0aa0-0a00-a00000aa0aa0; DEVICEFP_SEED_ID=aa000a000a00000a; DEVICEFP_SEED_TIME=0000000000000; DEVICEFP=00a00aa00a000; MIHOYO_LOGIN_PLATFORM_LIFECYCLE_ID=00a000a000; cookie_token_v2=a0_0a0aaaa0a0aa00aaaaaaaaaaaaaaaaaa0aa0_aaaaaaaa00aaaaaaaaaaaaaaaaaaaa-a0aaaaaaaaa0aaaaaaaaaaa0aa00aaa0a00aaaaaaaa0aaaaaaaaa0aaaa00aaaaaaaa0aa0aaa0aaa=.aaa=; account_mid_v2=0aaaaaaaa0_aaa; account_id_v2=000000000; ltoken_v2=a0_a_a0aaaaaaaaaaaaaa0aaa_aaaaaaaaaaaa0aaaa000aaaaaa0aaaa0aaaaaa_-aa0aaaaaaa0aaaa00aa_aaaaaaaaaaaa0aaaaa0aaa00aa0aa0a0aaaaaa_aa0aaaaaaaaaaaaaaaaaaaaaa=.aaa=; ltmid_v2=0aaaaaaaa0_aaa; ltuid_v2=000000000; cookie_token=aa0aaaaaaa0aaaaaaaa0aaaaaaaaaa0aaaaaaaaa; account_id=000000000; ltoken=aaa0aaaaa0aaaaaaaaaaaaa0a0aaaaaaaaaa0aaa; ltuid=000000000
+  cookie: 
+games:
+  cn:
+    useragent: Mozilla/5.0 (Linux; Android 12; Unspecified Device) AppleWebKit/537.36
+      (KHTML, like Gecko) Version/4.0 Chrome/103.0.5060.129 Mobile Safari/537.36
+    genshin:
+      uid: ''
