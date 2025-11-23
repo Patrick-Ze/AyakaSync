@@ -12,10 +12,16 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
 
+def get_path(path: str):
+    cwd = os.path.dirname(os.path.abspath(__file__))
+    abs_path = os.path.join(cwd, path)
+    return abs_path
+
+
 def init_delta_request():
-    with open("metadata/avatar.json", "rt", encoding="utf-8") as f:
+    with open(get_path("metadata/avatar.json"), "rt", encoding="utf-8") as f:
         avatar_data = json.load(f)
-    with open("metadata/weapon.json", "rt", encoding="utf-8") as f:
+    with open(get_path("metadata/weapon.json"), "rt", encoding="utf-8") as f:
         weapon_data = json.load(f)
 
     avatar_by_type = {}
@@ -51,10 +57,10 @@ def init_delta_request():
 
 def read_config_files():
     config_data = {}
-    os.makedirs("config", exist_ok=True)
-    cfg_files = glob("config/*.yaml")
+    os.makedirs(get_path("config"), exist_ok=True)
+    cfg_files = glob(get_path("config/*.yaml"))
     if len(cfg_files) == 0:
-        default_file = "config/config.yaml"
+        default_file = get_path("config/config.yaml")
         shutil.copy(f"{default_file}.example", default_file)
         raise SystemExit(f"Invalid config file, please update `{default_file}`")
     for path in cfg_files:
@@ -143,9 +149,10 @@ async def read_inventory_as_good_format(uid: str):
         actual_count = total_num - lack_num  # 实际拥有数量
         if actual_count > 0:
             inventory.append({"id": item["id"], "count": actual_count, "accurate": lack_num != 0})
+    inventory.append({"id": 113021, "count": 999, "accurate": False})
 
     if len(GOOD_id_map) == 0:
-        with open("metadata/MaterialExcelConfigData_idmap_gen.json", "rt", encoding="utf-8") as f:
+        with open(get_path("metadata/MaterialExcelConfigData_idmap_gen.json"), "rt", encoding="utf-8") as f:
             GOOD_id_map = json.load(f)
             GOOD_id_map = {int(k): v for k, v in GOOD_id_map.items()}
     materials = {GOOD_id_map[i["id"]]: i["count"] for i in inventory}
@@ -162,7 +169,7 @@ async def read_inventory_as_good_format(uid: str):
 async def read_inventory_as_seelie_format(uid: str):
     global seelie_metadata
     if len(seelie_metadata) == 0:
-        with open("metadata/seelie_inventory_map.json", "rt", encoding="utf-8") as f:
+        with open(get_path("metadata/seelie_inventory_map.json"), "rt", encoding="utf-8") as f:
             load_data = json.load(f)
         seelie_metadata = {int(k): v for k, v in load_data.items()}
 
