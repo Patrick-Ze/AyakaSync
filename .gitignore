@@ -209,3 +209,5 @@ __marimo__/
 # Local config files
 .vscode/
 config/*.yaml
+gen-for-seelie-import.json
+*-seelie-inventory.json
