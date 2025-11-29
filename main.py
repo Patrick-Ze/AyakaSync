@@ -108,6 +108,7 @@ def get_overall_consume(uid: str, region="cn_gf01"):
 
 
 GOOD_id_map = {}
+seelie_metadata = {}
 deltas = init_delta_request()
 uid_config_data = read_config_files()
 
@@ -120,7 +121,7 @@ class User(BaseModel):
     uid: str
 
 
-@app.get("/package/raw/{uid}", summary="根据UID获取用户背包内容")
+@app.get("/inventory/raw/{uid}", summary="根据UID获取用户背包内容")
 async def read_user(uid: str):
     if uid not in uid_config_data:
         raise HTTPException(status_code=404, detail=f"User with uid {uid} not found in the known list")
@@ -128,8 +129,8 @@ async def read_user(uid: str):
     return inventories
 
 
-@app.get("/package/good/{uid}", summary="根据UID获取用户背包内容 (返回GOOD格式)")
-async def read_user(uid: str):
+@app.get("/inventory/good/{uid}", summary="根据UID获取用户背包内容 (返回GOOD格式)")
+async def read_inventory_as_good_format(uid: str):
     global GOOD_id_map
     if uid not in uid_config_data:
         raise HTTPException(status_code=404, detail=f"User with uid {uid} not found in the known list")
@@ -154,6 +155,34 @@ async def read_user(uid: str):
         "source": "https://github.com/Patrick-Ze/AyakaSync",
         "materials": materials,
     }
+    return result
+
+
+@app.get("/inventory/seelie/{uid}", summary="根据UID获取用户背包内容 (返回seelie格式)")
+async def read_inventory_as_seelie_format(uid: str):
+    global seelie_metadata
+    if len(seelie_metadata) == 0:
+        with open("metadata/seelie_inventory_map.json", "rt", encoding="utf-8") as f:
+            load_data = json.load(f)
+        seelie_metadata = {int(k): v for k, v in load_data.items()}
+
+    if uid not in uid_config_data:
+        raise HTTPException(status_code=404, detail=f"User with uid {uid} not found in the known list")
+    overall_consume = get_overall_consume(uid)
+
+    inventory = []
+    for item in overall_consume:
+        total_num = item["num"]
+        lack_num = item["lack_num"]
+        actual_count = total_num - lack_num  # 实际拥有数量
+        if actual_count > 0:
+            item_data = seelie_metadata[item['id']].copy()
+            item_data['value'] = actual_count
+            inventory.append(item_data)
+    # 养成计算器不返回异梦溶媒的数量，固定其数值以便seelie规划使用
+    inventory.append({"type": "special", "item": "dream_solvent", "tier": 0, "value": 999})
+
+    result = {"inventory": inventory}
     return result
 
 

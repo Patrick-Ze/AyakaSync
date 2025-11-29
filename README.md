@@ -12,9 +12,9 @@
 
 - GOOD格式
 
-  `http://127.0.0.1:20928/package/good/<uid>`
+  `http://127.0.0.1:20928/inventory/good/<uid>`
 
-  以curl为例：`curl 'http://127.0.0.1:20928/package/good/123456789' -H 'accept: application/json'`
+  以curl为例：`curl 'http://127.0.0.1:20928/inventory/good/123456789' -H 'accept: application/json'`
 
 ## 已知局限
 

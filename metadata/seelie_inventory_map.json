@@ -1,0 +1,2307 @@
+{
+  "202": {
+    "type": "mora",
+    "item": "mora",
+    "tier": 0
+  },
+  "100021": {
+    "type": "local",
+    "item": "wolfhook",
+    "tier": 0
+  },
+  "100022": {
+    "type": "local",
+    "item": "valberry",
+    "tier": 0
+  },
+  "100023": {
+    "type": "local",
+    "item": "cecilia",
+    "tier": 0
+  },
+  "339018": {
+    "type": "local",
+    "item": "cecilia",
+    "tier": 0
+  },
+  "100024": {
+    "type": "local",
+    "item": "windwheel_aster",
+    "tier": 0
+  },
+  "100025": {
+    "type": "local",
+    "item": "philanemo_mushroom",
+    "tier": 0
+  },
+  "100027": {
+    "type": "local",
+    "item": "jueyun_chili",
+    "tier": 0
+  },
+  "100028": {
+    "type": "local",
+    "item": "noctilucous_jade",
+    "tier": 0
+  },
+  "100029": {
+    "type": "local",
+    "item": "silk_flower",
+    "tier": 0
+  },
+  "100030": {
+    "type": "local",
+    "item": "glaze_lilly",
+    "tier": 0
+  },
+  "339019": {
+    "type": "local",
+    "item": "glaze_lilly",
+    "tier": 0
+  },
+  "100031": {
+    "type": "local",
+    "item": "qingxin",
+    "tier": 0
+  },
+  "100033": {
+    "type": "local",
+    "item": "starconch",
+    "tier": 0
+  },
+  "100034": {
+    "type": "local",
+    "item": "violetgrass",
+    "tier": 0
+  },
+  "100055": {
+    "type": "local",
+    "item": "small_lamp_grass",
+    "tier": 0
+  },
+  "100056": {
+    "type": "local",
+    "item": "calla_lily",
+    "tier": 0
+  },
+  "100057": {
+    "type": "local",
+    "item": "dandelion_seed",
+    "tier": 0
+  },
+  "100728": {
+    "type": "local",
+    "item": "dandelion_seed",
+    "tier": 0
+  },
+  "339017": {
+    "type": "local",
+    "item": "dandelion_seed",
+    "tier": 0
+  },
+  "100058": {
+    "type": "local",
+    "item": "cor_lapis",
+    "tier": 0
+  },
+  "101201": {
+    "type": "local",
+    "item": "onikabuto",
+    "tier": 0
+  },
+  "101202": {
+    "type": "local",
+    "item": "sakura_bloom",
+    "tier": 0
+  },
+  "101203": {
+    "type": "local",
+    "item": "crystal_marrow",
+    "tier": 0
+  },
+  "101204": {
+    "type": "local",
+    "item": "dendrobium",
+    "tier": 0
+  },
+  "339020": {
+    "type": "local",
+    "item": "dendrobium",
+    "tier": 0
+  },
+  "101205": {
+    "type": "local",
+    "item": "naku_weed",
+    "tier": 0
+  },
+  "101206": {
+    "type": "local",
+    "item": "sea_ganoderma",
+    "tier": 0
+  },
+  "101207": {
+    "type": "local",
+    "item": "sango_pearl",
+    "tier": 0
+  },
+  "101208": {
+    "type": "local",
+    "item": "tenkumo_fruit",
+    "tier": 0
+  },
+  "101209": {
+    "type": "local",
+    "item": "fluorescent_fungus",
+    "tier": 0
+  },
+  "101213": {
+    "type": "local",
+    "item": "rukkhashava",
+    "tier": 0
+  },
+  "101214": {
+    "type": "local",
+    "item": "padisarah",
+    "tier": 0
+  },
+  "101215": {
+    "type": "local",
+    "item": "nilotpala",
+    "tier": 0
+  },
+  "101217": {
+    "type": "local",
+    "item": "kalpalata",
+    "tier": 0
+  },
+  "101220": {
+    "type": "local",
+    "item": "redcrest",
+    "tier": 0
+  },
+  "101222": {
+    "type": "local",
+    "item": "sand_grease_pupa",
+    "tier": 0
+  },
+  "101223": {
+    "type": "local",
+    "item": "mourning_flower",
+    "tier": 0
+  },
+  "101224": {
+    "type": "local",
+    "item": "trishiraite",
+    "tier": 0
+  },
+  "101225": {
+    "type": "local",
+    "item": "scarab",
+    "tier": 0
+  },
+  "101232": {
+    "type": "local",
+    "item": "beryl_conch",
+    "tier": 0
+  },
+  "101233": {
+    "type": "local",
+    "item": "romaritime_flower",
+    "tier": 0
+  },
+  "101235": {
+    "type": "local",
+    "item": "lumidouce_bell",
+    "tier": 0
+  },
+  "101236": {
+    "type": "local",
+    "item": "rainbow_rose",
+    "tier": 0
+  },
+  "101237": {
+    "type": "local",
+    "item": "lumitoile",
+    "tier": 0
+  },
+  "101238": {
+    "type": "local",
+    "item": "lakelight_lily",
+    "tier": 0
+  },
+  "101239": {
+    "type": "local",
+    "item": "subdetection_unit",
+    "tier": 0
+  },
+  "101240": {
+    "type": "local",
+    "item": "first_dewdrop",
+    "tier": 0
+  },
+  "101241": {
+    "type": "local",
+    "item": "clearwater_jade",
+    "tier": 0
+  },
+  "101247": {
+    "type": "local",
+    "item": "sprayfeather",
+    "tier": 0
+  },
+  "101248": {
+    "type": "local",
+    "item": "chrysanthemum",
+    "tier": 0
+  },
+  "101249": {
+    "type": "local",
+    "item": "quenepa",
+    "tier": 0
+  },
+  "101250": {
+    "type": "local",
+    "item": "saurian_succulent",
+    "tier": 0
+  },
+  "101252": {
+    "type": "local",
+    "item": "hornshroom",
+    "tier": 0
+  },
+  "101253": {
+    "type": "local",
+    "item": "purpurbloom",
+    "tier": 0
+  },
+  "101254": {
+    "type": "local",
+    "item": "skysplit_gembloom",
+    "tier": 0
+  },
+  "101255": {
+    "type": "local",
+    "item": "dracolite",
+    "tier": 0
+  },
+  "101257": {
+    "type": "local",
+    "item": "portable_bearing",
+    "tier": 0
+  },
+  "101261": {
+    "type": "local",
+    "item": "frostlamp_flower",
+    "tier": 0
+  },
+  "101263": {
+    "type": "local",
+    "item": "moonfall_silver",
+    "tier": 0
+  },
+  "104001": {
+    "type": "xp",
+    "item": "xp_sub_0",
+    "tier": 0
+  },
+  "104002": {
+    "type": "xp",
+    "item": "xp_sub_1",
+    "tier": 0
+  },
+  "120292": {
+    "type": "xp",
+    "item": "xp_sub_1",
+    "tier": 0
+  },
+  "104003": {
+    "type": "xp",
+    "item": "xp",
+    "tier": 0
+  },
+  "104011": {
+    "type": "wep_xp",
+    "item": "wep_xp_sub_0",
+    "tier": 0
+  },
+  "104012": {
+    "type": "wep_xp",
+    "item": "wep_xp_sub_1",
+    "tier": 0
+  },
+  "104013": {
+    "type": "wep_xp",
+    "item": "wep_xp",
+    "tier": 0
+  },
+  "104101": {
+    "type": "element_1",
+    "item": "brilliant_diamond",
+    "tier": 0
+  },
+  "104102": {
+    "type": "element_1",
+    "item": "brilliant_diamond",
+    "tier": 1
+  },
+  "104103": {
+    "type": "element_1",
+    "item": "brilliant_diamond",
+    "tier": 2
+  },
+  "104104": {
+    "type": "element_1",
+    "item": "brilliant_diamond",
+    "tier": 3
+  },
+  "104111": {
+    "type": "element_1",
+    "item": "agnidus_agate",
+    "tier": 0
+  },
+  "104112": {
+    "type": "element_1",
+    "item": "agnidus_agate",
+    "tier": 1
+  },
+  "104113": {
+    "type": "element_1",
+    "item": "agnidus_agate",
+    "tier": 2
+  },
+  "104114": {
+    "type": "element_1",
+    "item": "agnidus_agate",
+    "tier": 3
+  },
+  "104121": {
+    "type": "element_1",
+    "item": "varunada_lazurite",
+    "tier": 0
+  },
+  "104122": {
+    "type": "element_1",
+    "item": "varunada_lazurite",
+    "tier": 1
+  },
+  "104123": {
+    "type": "element_1",
+    "item": "varunada_lazurite",
+    "tier": 2
+  },
+  "104124": {
+    "type": "element_1",
+    "item": "varunada_lazurite",
+    "tier": 3
+  },
+  "104131": {
+    "type": "element_1",
+    "item": "nagadus_emerald",
+    "tier": 0
+  },
+  "104132": {
+    "type": "element_1",
+    "item": "nagadus_emerald",
+    "tier": 1
+  },
+  "104133": {
+    "type": "element_1",
+    "item": "nagadus_emerald",
+    "tier": 2
+  },
+  "104134": {
+    "type": "element_1",
+    "item": "nagadus_emerald",
+    "tier": 3
+  },
+  "104141": {
+    "type": "element_1",
+    "item": "vajrada_amethyst",
+    "tier": 0
+  },
+  "104142": {
+    "type": "element_1",
+    "item": "vajrada_amethyst",
+    "tier": 1
+  },
+  "104143": {
+    "type": "element_1",
+    "item": "vajrada_amethyst",
+    "tier": 2
+  },
+  "104144": {
+    "type": "element_1",
+    "item": "vajrada_amethyst",
+    "tier": 3
+  },
+  "104151": {
+    "type": "element_1",
+    "item": "vayuda_turqoise",
+    "tier": 0
+  },
+  "104152": {
+    "type": "element_1",
+    "item": "vayuda_turqoise",
+    "tier": 1
+  },
+  "104153": {
+    "type": "element_1",
+    "item": "vayuda_turqoise",
+    "tier": 2
+  },
+  "104154": {
+    "type": "element_1",
+    "item": "vayuda_turqoise",
+    "tier": 3
+  },
+  "104161": {
+    "type": "element_1",
+    "item": "shivada_jade",
+    "tier": 0
+  },
+  "104162": {
+    "type": "element_1",
+    "item": "shivada_jade",
+    "tier": 1
+  },
+  "104163": {
+    "type": "element_1",
+    "item": "shivada_jade",
+    "tier": 2
+  },
+  "104164": {
+    "type": "element_1",
+    "item": "shivada_jade",
+    "tier": 3
+  },
+  "104171": {
+    "type": "element_1",
+    "item": "prithiva_topaz",
+    "tier": 0
+  },
+  "104172": {
+    "type": "element_1",
+    "item": "prithiva_topaz",
+    "tier": 1
+  },
+  "104173": {
+    "type": "element_1",
+    "item": "prithiva_topaz",
+    "tier": 2
+  },
+  "104174": {
+    "type": "element_1",
+    "item": "prithiva_topaz",
+    "tier": 3
+  },
+  "104301": {
+    "type": "talent",
+    "item": "freedom",
+    "tier": 0
+  },
+  "104302": {
+    "type": "talent",
+    "item": "freedom",
+    "tier": 1
+  },
+  "104303": {
+    "type": "talent",
+    "item": "freedom",
+    "tier": 2
+  },
+  "104304": {
+    "type": "talent",
+    "item": "resistance",
+    "tier": 0
+  },
+  "104305": {
+    "type": "talent",
+    "item": "resistance",
+    "tier": 1
+  },
+  "104306": {
+    "type": "talent",
+    "item": "resistance",
+    "tier": 2
+  },
+  "104307": {
+    "type": "talent",
+    "item": "ballad",
+    "tier": 0
+  },
+  "104308": {
+    "type": "talent",
+    "item": "ballad",
+    "tier": 1
+  },
+  "104309": {
+    "type": "talent",
+    "item": "ballad",
+    "tier": 2
+  },
+  "104310": {
+    "type": "talent",
+    "item": "prosperity",
+    "tier": 0
+  },
+  "104311": {
+    "type": "talent",
+    "item": "prosperity",
+    "tier": 1
+  },
+  "104312": {
+    "type": "talent",
+    "item": "prosperity",
+    "tier": 2
+  },
+  "104313": {
+    "type": "talent",
+    "item": "diligence",
+    "tier": 0
+  },
+  "104314": {
+    "type": "talent",
+    "item": "diligence",
+    "tier": 1
+  },
+  "104315": {
+    "type": "talent",
+    "item": "diligence",
+    "tier": 2
+  },
+  "104316": {
+    "type": "talent",
+    "item": "gold",
+    "tier": 0
+  },
+  "104317": {
+    "type": "talent",
+    "item": "gold",
+    "tier": 1
+  },
+  "104318": {
+    "type": "talent",
+    "item": "gold",
+    "tier": 2
+  },
+  "104319": {
+    "type": "special",
+    "item": "crown",
+    "tier": 0
+  },
+  "104320": {
+    "type": "talent",
+    "item": "transience",
+    "tier": 0
+  },
+  "104321": {
+    "type": "talent",
+    "item": "transience",
+    "tier": 1
+  },
+  "104322": {
+    "type": "talent",
+    "item": "transience",
+    "tier": 2
+  },
+  "104323": {
+    "type": "talent",
+    "item": "elegance",
+    "tier": 0
+  },
+  "104324": {
+    "type": "talent",
+    "item": "elegance",
+    "tier": 1
+  },
+  "104325": {
+    "type": "talent",
+    "item": "elegance",
+    "tier": 2
+  },
+  "104326": {
+    "type": "talent",
+    "item": "light",
+    "tier": 0
+  },
+  "104327": {
+    "type": "talent",
+    "item": "light",
+    "tier": 1
+  },
+  "104328": {
+    "type": "talent",
+    "item": "light",
+    "tier": 2
+  },
+  "104329": {
+    "type": "talent",
+    "item": "admonition",
+    "tier": 0
+  },
+  "104330": {
+    "type": "talent",
+    "item": "admonition",
+    "tier": 1
+  },
+  "104331": {
+    "type": "talent",
+    "item": "admonition",
+    "tier": 2
+  },
+  "104332": {
+    "type": "talent",
+    "item": "ingenuity",
+    "tier": 0
+  },
+  "104333": {
+    "type": "talent",
+    "item": "ingenuity",
+    "tier": 1
+  },
+  "104334": {
+    "type": "talent",
+    "item": "ingenuity",
+    "tier": 2
+  },
+  "104335": {
+    "type": "talent",
+    "item": "praxis",
+    "tier": 0
+  },
+  "104336": {
+    "type": "talent",
+    "item": "praxis",
+    "tier": 1
+  },
+  "104337": {
+    "type": "talent",
+    "item": "praxis",
+    "tier": 2
+  },
+  "104338": {
+    "type": "talent",
+    "item": "fairness",
+    "tier": 0
+  },
+  "104339": {
+    "type": "talent",
+    "item": "fairness",
+    "tier": 1
+  },
+  "104340": {
+    "type": "talent",
+    "item": "fairness",
+    "tier": 2
+  },
+  "104341": {
+    "type": "talent",
+    "item": "justice",
+    "tier": 0
+  },
+  "104342": {
+    "type": "talent",
+    "item": "justice",
+    "tier": 1
+  },
+  "104343": {
+    "type": "talent",
+    "item": "justice",
+    "tier": 2
+  },
+  "104344": {
+    "type": "talent",
+    "item": "order",
+    "tier": 0
+  },
+  "104345": {
+    "type": "talent",
+    "item": "order",
+    "tier": 1
+  },
+  "104346": {
+    "type": "talent",
+    "item": "order",
+    "tier": 2
+  },
+  "104347": {
+    "type": "talent",
+    "item": "contention",
+    "tier": 0
+  },
+  "104348": {
+    "type": "talent",
+    "item": "contention",
+    "tier": 1
+  },
+  "104349": {
+    "type": "talent",
+    "item": "contention",
+    "tier": 2
+  },
+  "104350": {
+    "type": "talent",
+    "item": "kindling",
+    "tier": 0
+  },
+  "104351": {
+    "type": "talent",
+    "item": "kindling",
+    "tier": 1
+  },
+  "104352": {
+    "type": "talent",
+    "item": "kindling",
+    "tier": 2
+  },
+  "104353": {
+    "type": "talent",
+    "item": "conflict",
+    "tier": 0
+  },
+  "104354": {
+    "type": "talent",
+    "item": "conflict",
+    "tier": 1
+  },
+  "104355": {
+    "type": "talent",
+    "item": "conflict",
+    "tier": 2
+  },
+  "104356": {
+    "type": "talent",
+    "item": "moonlight",
+    "tier": 0
+  },
+  "104357": {
+    "type": "talent",
+    "item": "moonlight",
+    "tier": 1
+  },
+  "104358": {
+    "type": "talent",
+    "item": "moonlight",
+    "tier": 2
+  },
+  "104359": {
+    "type": "talent",
+    "item": "elysium",
+    "tier": 0
+  },
+  "104360": {
+    "type": "talent",
+    "item": "elysium",
+    "tier": 1
+  },
+  "104361": {
+    "type": "talent",
+    "item": "elysium",
+    "tier": 2
+  },
+  "104362": {
+    "type": "talent",
+    "item": "vagrancy",
+    "tier": 0
+  },
+  "104363": {
+    "type": "talent",
+    "item": "vagrancy",
+    "tier": 1
+  },
+  "104364": {
+    "type": "talent",
+    "item": "vagrancy",
+    "tier": 2
+  },
+  "112002": {
+    "type": "common",
+    "item": "slime",
+    "tier": 0
+  },
+  "112003": {
+    "type": "common",
+    "item": "slime",
+    "tier": 1
+  },
+  "112004": {
+    "type": "common",
+    "item": "slime",
+    "tier": 2
+  },
+  "112005": {
+    "type": "common",
+    "item": "mask",
+    "tier": 0
+  },
+  "112006": {
+    "type": "common",
+    "item": "mask",
+    "tier": 1
+  },
+  "112007": {
+    "type": "common",
+    "item": "mask",
+    "tier": 2
+  },
+  "112008": {
+    "type": "common",
+    "item": "scroll",
+    "tier": 0
+  },
+  "112009": {
+    "type": "common",
+    "item": "scroll",
+    "tier": 1
+  },
+  "112010": {
+    "type": "common",
+    "item": "scroll",
+    "tier": 2
+  },
+  "112011": {
+    "type": "common",
+    "item": "arrowhead",
+    "tier": 0
+  },
+  "112012": {
+    "type": "common",
+    "item": "arrowhead",
+    "tier": 1
+  },
+  "112013": {
+    "type": "common",
+    "item": "arrowhead",
+    "tier": 2
+  },
+  "112014": {
+    "type": "common_rare",
+    "item": "horn",
+    "tier": 0
+  },
+  "112015": {
+    "type": "common_rare",
+    "item": "horn",
+    "tier": 1
+  },
+  "112016": {
+    "type": "common_rare",
+    "item": "horn",
+    "tier": 2
+  },
+  "112017": {
+    "type": "common_rare",
+    "item": "statuette",
+    "tier": 0
+  },
+  "112018": {
+    "type": "common_rare",
+    "item": "statuette",
+    "tier": 1
+  },
+  "112019": {
+    "type": "common_rare",
+    "item": "statuette",
+    "tier": 2
+  },
+  "112020": {
+    "type": "common_rare",
+    "item": "ley_line",
+    "tier": 0
+  },
+  "112021": {
+    "type": "common_rare",
+    "item": "ley_line",
+    "tier": 1
+  },
+  "112022": {
+    "type": "common_rare",
+    "item": "ley_line",
+    "tier": 2
+  },
+  "112023": {
+    "type": "common_rare",
+    "item": "chaos",
+    "tier": 0
+  },
+  "112024": {
+    "type": "common_rare",
+    "item": "chaos",
+    "tier": 1
+  },
+  "112025": {
+    "type": "common_rare",
+    "item": "chaos",
+    "tier": 2
+  },
+  "112026": {
+    "type": "common_rare",
+    "item": "mist",
+    "tier": 0
+  },
+  "112027": {
+    "type": "common_rare",
+    "item": "mist",
+    "tier": 1
+  },
+  "112028": {
+    "type": "common_rare",
+    "item": "mist",
+    "tier": 2
+  },
+  "112029": {
+    "type": "common_rare",
+    "item": "sacrificial_knife",
+    "tier": 0
+  },
+  "112030": {
+    "type": "common_rare",
+    "item": "sacrificial_knife",
+    "tier": 1
+  },
+  "112031": {
+    "type": "common_rare",
+    "item": "sacrificial_knife",
+    "tier": 2
+  },
+  "112032": {
+    "type": "common",
+    "item": "f_insignia",
+    "tier": 0
+  },
+  "112033": {
+    "type": "common",
+    "item": "f_insignia",
+    "tier": 1
+  },
+  "112034": {
+    "type": "common",
+    "item": "f_insignia",
+    "tier": 2
+  },
+  "112035": {
+    "type": "common",
+    "item": "th_insignia",
+    "tier": 0
+  },
+  "112036": {
+    "type": "common",
+    "item": "th_insignia",
+    "tier": 1
+  },
+  "112037": {
+    "type": "common",
+    "item": "th_insignia",
+    "tier": 2
+  },
+  "112038": {
+    "type": "common",
+    "item": "nectar",
+    "tier": 0
+  },
+  "112039": {
+    "type": "common",
+    "item": "nectar",
+    "tier": 1
+  },
+  "112040": {
+    "type": "common",
+    "item": "nectar",
+    "tier": 2
+  },
+  "112041": {
+    "type": "common_rare",
+    "item": "bone_shard",
+    "tier": 0
+  },
+  "112042": {
+    "type": "common_rare",
+    "item": "bone_shard",
+    "tier": 1
+  },
+  "112043": {
+    "type": "common_rare",
+    "item": "bone_shard",
+    "tier": 2
+  },
+  "112044": {
+    "type": "common",
+    "item": "handguard",
+    "tier": 0
+  },
+  "112045": {
+    "type": "common",
+    "item": "handguard",
+    "tier": 1
+  },
+  "112046": {
+    "type": "common",
+    "item": "handguard",
+    "tier": 2
+  },
+  "112047": {
+    "type": "common_rare",
+    "item": "chaos_g",
+    "tier": 0
+  },
+  "112048": {
+    "type": "common_rare",
+    "item": "chaos_g",
+    "tier": 1
+  },
+  "112049": {
+    "type": "common_rare",
+    "item": "chaos_g",
+    "tier": 2
+  },
+  "112050": {
+    "type": "common_rare",
+    "item": "prism",
+    "tier": 0
+  },
+  "112051": {
+    "type": "common_rare",
+    "item": "prism",
+    "tier": 1
+  },
+  "112052": {
+    "type": "common_rare",
+    "item": "prism",
+    "tier": 2
+  },
+  "112053": {
+    "type": "common",
+    "item": "spectral_husk",
+    "tier": 0
+  },
+  "112054": {
+    "type": "common",
+    "item": "spectral_husk",
+    "tier": 1
+  },
+  "112055": {
+    "type": "common",
+    "item": "spectral_husk",
+    "tier": 2
+  },
+  "112056": {
+    "type": "common_rare",
+    "item": "claw",
+    "tier": 0
+  },
+  "112057": {
+    "type": "common_rare",
+    "item": "claw",
+    "tier": 1
+  },
+  "112058": {
+    "type": "common_rare",
+    "item": "claw",
+    "tier": 2
+  },
+  "112059": {
+    "type": "common",
+    "item": "spores",
+    "tier": 0
+  },
+  "112060": {
+    "type": "common",
+    "item": "spores",
+    "tier": 1
+  },
+  "112061": {
+    "type": "common",
+    "item": "spores",
+    "tier": 2
+  },
+  "112062": {
+    "type": "common_rare",
+    "item": "fungal_nucleus",
+    "tier": 0
+  },
+  "112063": {
+    "type": "common_rare",
+    "item": "fungal_nucleus",
+    "tier": 1
+  },
+  "112064": {
+    "type": "common_rare",
+    "item": "fungal_nucleus",
+    "tier": 2
+  },
+  "112065": {
+    "type": "common",
+    "item": "red_satin",
+    "tier": 0
+  },
+  "112066": {
+    "type": "common",
+    "item": "red_satin",
+    "tier": 1
+  },
+  "112067": {
+    "type": "common",
+    "item": "red_satin",
+    "tier": 2
+  },
+  "112068": {
+    "type": "common_rare",
+    "item": "chaos_s",
+    "tier": 0
+  },
+  "112069": {
+    "type": "common_rare",
+    "item": "chaos_s",
+    "tier": 1
+  },
+  "112070": {
+    "type": "common_rare",
+    "item": "chaos_s",
+    "tier": 2
+  },
+  "112071": {
+    "type": "common_rare",
+    "item": "d_prism",
+    "tier": 0
+  },
+  "112072": {
+    "type": "common_rare",
+    "item": "d_prism",
+    "tier": 1
+  },
+  "112073": {
+    "type": "common_rare",
+    "item": "d_prism",
+    "tier": 2
+  },
+  "112074": {
+    "type": "common_rare",
+    "item": "shell",
+    "tier": 0
+  },
+  "112075": {
+    "type": "common_rare",
+    "item": "shell",
+    "tier": 1
+  },
+  "112076": {
+    "type": "common_rare",
+    "item": "shell",
+    "tier": 2
+  },
+  "112077": {
+    "type": "common_rare",
+    "item": "flower",
+    "tier": 0
+  },
+  "112078": {
+    "type": "common_rare",
+    "item": "flower",
+    "tier": 1
+  },
+  "112079": {
+    "type": "common_rare",
+    "item": "flower",
+    "tier": 2
+  },
+  "112080": {
+    "type": "common",
+    "item": "transoceanic",
+    "tier": 0
+  },
+  "112081": {
+    "type": "common",
+    "item": "transoceanic",
+    "tier": 1
+  },
+  "112082": {
+    "type": "common",
+    "item": "transoceanic",
+    "tier": 2
+  },
+  "112083": {
+    "type": "common",
+    "item": "gear",
+    "tier": 0
+  },
+  "112084": {
+    "type": "common",
+    "item": "gear",
+    "tier": 1
+  },
+  "112085": {
+    "type": "common",
+    "item": "gear",
+    "tier": 2
+  },
+  "112086": {
+    "type": "common_rare",
+    "item": "tainted_water",
+    "tier": 0
+  },
+  "112087": {
+    "type": "common_rare",
+    "item": "tainted_water",
+    "tier": 1
+  },
+  "112088": {
+    "type": "common_rare",
+    "item": "tainted_water",
+    "tier": 2
+  },
+  "112089": {
+    "type": "common_rare",
+    "item": "core",
+    "tier": 0
+  },
+  "112090": {
+    "type": "common_rare",
+    "item": "core",
+    "tier": 1
+  },
+  "112091": {
+    "type": "common_rare",
+    "item": "core",
+    "tier": 2
+  },
+  "112092": {
+    "type": "common_rare",
+    "item": "pocket_watch",
+    "tier": 0
+  },
+  "112093": {
+    "type": "common_rare",
+    "item": "pocket_watch",
+    "tier": 1
+  },
+  "112094": {
+    "type": "common_rare",
+    "item": "pocket_watch",
+    "tier": 2
+  },
+  "112095": {
+    "type": "common_rare",
+    "item": "fin",
+    "tier": 0
+  },
+  "112096": {
+    "type": "common_rare",
+    "item": "fin",
+    "tier": 1
+  },
+  "112097": {
+    "type": "common_rare",
+    "item": "fin",
+    "tier": 2
+  },
+  "112098": {
+    "type": "common_rare",
+    "item": "hilt",
+    "tier": 0
+  },
+  "112099": {
+    "type": "common_rare",
+    "item": "hilt",
+    "tier": 1
+  },
+  "112100": {
+    "type": "common_rare",
+    "item": "hilt",
+    "tier": 2
+  },
+  "112101": {
+    "type": "common",
+    "item": "n_fang",
+    "tier": 0
+  },
+  "112102": {
+    "type": "common",
+    "item": "n_fang",
+    "tier": 1
+  },
+  "112103": {
+    "type": "common",
+    "item": "n_fang",
+    "tier": 2
+  },
+  "112104": {
+    "type": "common",
+    "item": "whistle",
+    "tier": 0
+  },
+  "112105": {
+    "type": "common",
+    "item": "whistle",
+    "tier": 1
+  },
+  "112106": {
+    "type": "common",
+    "item": "whistle",
+    "tier": 2
+  },
+  "112107": {
+    "type": "common_rare",
+    "item": "will",
+    "tier": 0
+  },
+  "112108": {
+    "type": "common_rare",
+    "item": "will",
+    "tier": 1
+  },
+  "112109": {
+    "type": "common_rare",
+    "item": "will",
+    "tier": 2
+  },
+  "112110": {
+    "type": "common_rare",
+    "item": "ignited",
+    "tier": 0
+  },
+  "112111": {
+    "type": "common_rare",
+    "item": "ignited",
+    "tier": 1
+  },
+  "112112": {
+    "type": "common_rare",
+    "item": "ignited",
+    "tier": 2
+  },
+  "112113": {
+    "type": "common_rare",
+    "item": "secret_source",
+    "tier": 0
+  },
+  "112114": {
+    "type": "common_rare",
+    "item": "secret_source",
+    "tier": 1
+  },
+  "112115": {
+    "type": "common_rare",
+    "item": "secret_source",
+    "tier": 2
+  },
+  "112116": {
+    "type": "common_rare",
+    "item": "bud",
+    "tier": 0
+  },
+  "112117": {
+    "type": "common_rare",
+    "item": "bud",
+    "tier": 1
+  },
+  "112118": {
+    "type": "common_rare",
+    "item": "bud",
+    "tier": 2
+  },
+  "112119": {
+    "type": "common_rare",
+    "item": "shellshard",
+    "tier": 0
+  },
+  "112120": {
+    "type": "common_rare",
+    "item": "shellshard",
+    "tier": 1
+  },
+  "112121": {
+    "type": "common_rare",
+    "item": "shellshard",
+    "tier": 2
+  },
+  "112122": {
+    "type": "common",
+    "item": "drive_shaft",
+    "tier": 0
+  },
+  "112123": {
+    "type": "common",
+    "item": "drive_shaft",
+    "tier": 1
+  },
+  "112124": {
+    "type": "common",
+    "item": "drive_shaft",
+    "tier": 2
+  },
+  "112125": {
+    "type": "common",
+    "item": "warrant",
+    "tier": 0
+  },
+  "112126": {
+    "type": "common",
+    "item": "warrant",
+    "tier": 1
+  },
+  "112127": {
+    "type": "common",
+    "item": "warrant",
+    "tier": 2
+  },
+  "112128": {
+    "type": "common_rare",
+    "item": "frostnight",
+    "tier": 0
+  },
+  "112129": {
+    "type": "common_rare",
+    "item": "frostnight",
+    "tier": 1
+  },
+  "112130": {
+    "type": "common_rare",
+    "item": "frostnight",
+    "tier": 2
+  },
+  "112131": {
+    "type": "common_rare",
+    "item": "l_bone",
+    "tier": 0
+  },
+  "112132": {
+    "type": "common_rare",
+    "item": "l_bone",
+    "tier": 1
+  },
+  "112133": {
+    "type": "common_rare",
+    "item": "l_bone",
+    "tier": 2
+  },
+  "112134": {
+    "type": "common_rare",
+    "item": "mistshroud",
+    "tier": 0
+  },
+  "112135": {
+    "type": "common_rare",
+    "item": "mistshroud",
+    "tier": 1
+  },
+  "112136": {
+    "type": "common_rare",
+    "item": "mistshroud",
+    "tier": 2
+  },
+  "113001": {
+    "type": "element_2",
+    "item": "hurricane_seed",
+    "tier": 0
+  },
+  "113002": {
+    "type": "element_2",
+    "item": "lightning_prism",
+    "tier": 0
+  },
+  "113003": {
+    "type": "boss",
+    "item": "dvalins_plume",
+    "tier": 0
+  },
+  "113004": {
+    "type": "boss",
+    "item": "dvalins_claw",
+    "tier": 0
+  },
+  "113005": {
+    "type": "boss",
+    "item": "dvalins_sigh",
+    "tier": 0
+  },
+  "113006": {
+    "type": "boss",
+    "item": "tail_of_boreas",
+    "tier": 0
+  },
+  "113007": {
+    "type": "boss",
+    "item": "ring_of_boreas",
+    "tier": 0
+  },
+  "113008": {
+    "type": "boss",
+    "item": "spirit_locket_of_boreas",
+    "tier": 0
+  },
+  "113009": {
+    "type": "element_2",
+    "item": "basalt_pillar",
+    "tier": 0
+  },
+  "113010": {
+    "type": "element_2",
+    "item": "hoarfrost_core",
+    "tier": 0
+  },
+  "113011": {
+    "type": "element_2",
+    "item": "everflame_seed",
+    "tier": 0
+  },
+  "113012": {
+    "type": "element_2",
+    "item": "cleansing_heart",
+    "tier": 0
+  },
+  "113013": {
+    "type": "boss",
+    "item": "tusk_of_monoceros_caeli",
+    "tier": 0
+  },
+  "113014": {
+    "type": "boss",
+    "item": "shard_of_a_foul_legacy",
+    "tier": 0
+  },
+  "113015": {
+    "type": "boss",
+    "item": "shadow_of_the_warrior",
+    "tier": 0
+  },
+  "113016": {
+    "type": "element_2",
+    "item": "juvenile_jade",
+    "tier": 0
+  },
+  "113017": {
+    "type": "boss",
+    "item": "dragon_lords_crown",
+    "tier": 0
+  },
+  "113018": {
+    "type": "boss",
+    "item": "bloodjade_branch",
+    "tier": 0
+  },
+  "113019": {
+    "type": "boss",
+    "item": "gilded_scale",
+    "tier": 0
+  },
+  "113020": {
+    "type": "element_2",
+    "item": "crystalline_bloom",
+    "tier": 0
+  },
+  "113021": {
+    "type": "special",
+    "item": "dream_solvent",
+    "tier": 0
+  },
+  "113022": {
+    "type": "element_2",
+    "item": "maguu_kishin",
+    "tier": 0
+  },
+  "113023": {
+    "type": "element_2",
+    "item": "perpetual_heart",
+    "tier": 0
+  },
+  "113024": {
+    "type": "element_2",
+    "item": "smoldering_pearl",
+    "tier": 0
+  },
+  "113025": {
+    "type": "boss",
+    "item": "signora_flower",
+    "tier": 0
+  },
+  "113026": {
+    "type": "boss",
+    "item": "signora_wings",
+    "tier": 0
+  },
+  "113027": {
+    "type": "boss",
+    "item": "signora_heart",
+    "tier": 0
+  },
+  "113028": {
+    "type": "element_2",
+    "item": "dew_of_repudiation",
+    "tier": 0
+  },
+  "113029": {
+    "type": "element_2",
+    "item": "storm_beads",
+    "tier": 0
+  },
+  "113030": {
+    "type": "element_2",
+    "item": "riftborn_regalia",
+    "tier": 0
+  },
+  "113031": {
+    "type": "element_2",
+    "item": "dragonheirs_false_fin",
+    "tier": 0
+  },
+  "113032": {
+    "type": "boss",
+    "item": "mudra_of_the_malefic_general",
+    "tier": 0
+  },
+  "113033": {
+    "type": "boss",
+    "item": "tears_of_the_calamitous_god",
+    "tier": 0
+  },
+  "113034": {
+    "type": "boss",
+    "item": "the_meaning_of_aeons",
+    "tier": 0
+  },
+  "113035": {
+    "type": "element_2",
+    "item": "runic_fang",
+    "tier": 0
+  },
+  "113036": {
+    "type": "element_2",
+    "item": "majestic_hooked_beak",
+    "tier": 0
+  },
+  "113037": {
+    "type": "element_2",
+    "item": "thunderclap_fruitcore",
+    "tier": 0
+  },
+  "113038": {
+    "type": "element_2",
+    "item": "perpetual_caliber",
+    "tier": 0
+  },
+  "113039": {
+    "type": "element_2",
+    "item": "light_guiding_tetrahedron",
+    "tier": 0
+  },
+  "113040": {
+    "type": "element_2",
+    "item": "quelled_creeper",
+    "tier": 0
+  },
+  "113041": {
+    "type": "boss",
+    "item": "puppet_strings",
+    "tier": 0
+  },
+  "113042": {
+    "type": "boss",
+    "item": "mirror_of_mushin",
+    "tier": 0
+  },
+  "113043": {
+    "type": "boss",
+    "item": "dakas_bell",
+    "tier": 0
+  },
+  "113044": {
+    "type": "element_2",
+    "item": "pseudo_stamens",
+    "tier": 0
+  },
+  "113045": {
+    "type": "element_2",
+    "item": "evergloom_ring",
+    "tier": 0
+  },
+  "113046": {
+    "type": "boss",
+    "item": "worldspan_fern",
+    "tier": 0
+  },
+  "113047": {
+    "type": "boss",
+    "item": "primordial_greenbloom",
+    "tier": 0
+  },
+  "113048": {
+    "type": "boss",
+    "item": "everamber",
+    "tier": 0
+  },
+  "113049": {
+    "type": "element_2",
+    "item": "clockwork_component_coppelia",
+    "tier": 0
+  },
+  "113050": {
+    "type": "element_2",
+    "item": "clockwork_component_coppelius",
+    "tier": 0
+  },
+  "113051": {
+    "type": "element_2",
+    "item": "emperors_resolution",
+    "tier": 0
+  },
+  "113052": {
+    "type": "element_2",
+    "item": "tourbillon_device",
+    "tier": 0
+  },
+  "113053": {
+    "type": "element_2",
+    "item": "fontemer_unihorn",
+    "tier": 0
+  },
+  "113054": {
+    "type": "boss",
+    "item": "lightless_silk_string",
+    "tier": 0
+  },
+  "113055": {
+    "type": "boss",
+    "item": "lightless_eye_of_the_maelstrom",
+    "tier": 0
+  },
+  "113056": {
+    "type": "boss",
+    "item": "lightless_mass",
+    "tier": 0
+  },
+  "113057": {
+    "type": "element_2",
+    "item": "water_that_failed",
+    "tier": 0
+  },
+  "113058": {
+    "type": "element_2",
+    "item": "cloudseam_scale",
+    "tier": 0
+  },
+  "113059": {
+    "type": "element_2",
+    "item": "golden_melody",
+    "tier": 0
+  },
+  "113060": {
+    "type": "boss",
+    "item": "fading_candle",
+    "tier": 0
+  },
+  "113061": {
+    "type": "boss",
+    "item": "silken_feather",
+    "tier": 0
+  },
+  "113062": {
+    "type": "boss",
+    "item": "denial_and_judgment",
+    "tier": 0
+  },
+  "113063": {
+    "type": "boss",
+    "item": "cornerstone",
+    "tier": 0
+  },
+  "113064": {
+    "type": "element_2",
+    "item": "binding_blessing",
+    "tier": 0
+  },
+  "113065": {
+    "type": "element_2",
+    "item": "flamegranate",
+    "tier": 0
+  },
+  "113066": {
+    "type": "element_2",
+    "item": "secret_source_core",
+    "tier": 0
+  },
+  "113067": {
+    "type": "element_2",
+    "item": "ensnaring_gaze",
+    "tier": 0
+  },
+  "113068": {
+    "type": "boss",
+    "item": "eroded_horn",
+    "tier": 0
+  },
+  "113069": {
+    "type": "boss",
+    "item": "eroded_sunfire",
+    "tier": 0
+  },
+  "113070": {
+    "type": "boss",
+    "item": "eroded_scale",
+    "tier": 0
+  },
+  "113071": {
+    "type": "element_2",
+    "item": "talisman_of_the_enigmatic_land",
+    "tier": 0
+  },
+  "113072": {
+    "type": "element_2",
+    "item": "sparkless_statue_core",
+    "tier": 0
+  },
+  "113073": {
+    "type": "boss",
+    "item": "ascended_sample_knight",
+    "tier": 0
+  },
+  "113074": {
+    "type": "boss",
+    "item": "ascended_sample_rook",
+    "tier": 0
+  },
+  "113075": {
+    "type": "boss",
+    "item": "ascended_sample_queen",
+    "tier": 0
+  },
+  "113076": {
+    "type": "element_2",
+    "item": "airflow_accumulator",
+    "tier": 0
+  },
+  "113077": {
+    "type": "element_2",
+    "item": "precision_kuuvahki",
+    "tier": 0
+  },
+  "113078": {
+    "type": "element_2",
+    "item": "lightbearing_scale_feather",
+    "tier": 0
+  },
+  "113079": {
+    "type": "element_2",
+    "item": "radiant_antler",
+    "tier": 0
+  },
+  "114001": {
+    "type": "wam",
+    "item": "decarabian",
+    "tier": 0
+  },
+  "114002": {
+    "type": "wam",
+    "item": "decarabian",
+    "tier": 1
+  },
+  "114003": {
+    "type": "wam",
+    "item": "decarabian",
+    "tier": 2
+  },
+  "114004": {
+    "type": "wam",
+    "item": "decarabian",
+    "tier": 3
+  },
+  "114005": {
+    "type": "wam",
+    "item": "boreal_wolf",
+    "tier": 0
+  },
+  "114006": {
+    "type": "wam",
+    "item": "boreal_wolf",
+    "tier": 1
+  },
+  "114007": {
+    "type": "wam",
+    "item": "boreal_wolf",
+    "tier": 2
+  },
+  "114008": {
+    "type": "wam",
+    "item": "boreal_wolf",
+    "tier": 3
+  },
+  "114009": {
+    "type": "wam",
+    "item": "dandelion_gladiator",
+    "tier": 0
+  },
+  "114010": {
+    "type": "wam",
+    "item": "dandelion_gladiator",
+    "tier": 1
+  },
+  "114011": {
+    "type": "wam",
+    "item": "dandelion_gladiator",
+    "tier": 2
+  },
+  "114012": {
+    "type": "wam",
+    "item": "dandelion_gladiator",
+    "tier": 3
+  },
+  "114013": {
+    "type": "wam",
+    "item": "guyun",
+    "tier": 0
+  },
+  "114014": {
+    "type": "wam",
+    "item": "guyun",
+    "tier": 1
+  },
+  "114015": {
+    "type": "wam",
+    "item": "guyun",
+    "tier": 2
+  },
+  "114016": {
+    "type": "wam",
+    "item": "guyun",
+    "tier": 3
+  },
+  "114017": {
+    "type": "wam",
+    "item": "mist_veiled_elixer",
+    "tier": 0
+  },
+  "114018": {
+    "type": "wam",
+    "item": "mist_veiled_elixer",
+    "tier": 1
+  },
+  "114019": {
+    "type": "wam",
+    "item": "mist_veiled_elixer",
+    "tier": 2
+  },
+  "114020": {
+    "type": "wam",
+    "item": "mist_veiled_elixer",
+    "tier": 3
+  },
+  "114021": {
+    "type": "wam",
+    "item": "aerosiderite",
+    "tier": 0
+  },
+  "114022": {
+    "type": "wam",
+    "item": "aerosiderite",
+    "tier": 1
+  },
+  "114023": {
+    "type": "wam",
+    "item": "aerosiderite",
+    "tier": 2
+  },
+  "114024": {
+    "type": "wam",
+    "item": "aerosiderite",
+    "tier": 3
+  },
+  "114025": {
+    "type": "wam",
+    "item": "sea_branch",
+    "tier": 0
+  },
+  "114026": {
+    "type": "wam",
+    "item": "sea_branch",
+    "tier": 1
+  },
+  "114027": {
+    "type": "wam",
+    "item": "sea_branch",
+    "tier": 2
+  },
+  "114028": {
+    "type": "wam",
+    "item": "sea_branch",
+    "tier": 3
+  },
+  "114029": {
+    "type": "wam",
+    "item": "narukami",
+    "tier": 0
+  },
+  "114030": {
+    "type": "wam",
+    "item": "narukami",
+    "tier": 1
+  },
+  "114031": {
+    "type": "wam",
+    "item": "narukami",
+    "tier": 2
+  },
+  "114032": {
+    "type": "wam",
+    "item": "narukami",
+    "tier": 3
+  },
+  "114033": {
+    "type": "wam",
+    "item": "mask_w",
+    "tier": 0
+  },
+  "114034": {
+    "type": "wam",
+    "item": "mask_w",
+    "tier": 1
+  },
+  "114035": {
+    "type": "wam",
+    "item": "mask_w",
+    "tier": 2
+  },
+  "114036": {
+    "type": "wam",
+    "item": "mask_w",
+    "tier": 3
+  },
+  "114037": {
+    "type": "wam",
+    "item": "talisman",
+    "tier": 0
+  },
+  "114038": {
+    "type": "wam",
+    "item": "talisman",
+    "tier": 1
+  },
+  "114039": {
+    "type": "wam",
+    "item": "talisman",
+    "tier": 2
+  },
+  "114040": {
+    "type": "wam",
+    "item": "talisman",
+    "tier": 3
+  },
+  "114041": {
+    "type": "wam",
+    "item": "oasis_gardens",
+    "tier": 0
+  },
+  "114042": {
+    "type": "wam",
+    "item": "oasis_gardens",
+    "tier": 1
+  },
+  "114043": {
+    "type": "wam",
+    "item": "oasis_gardens",
+    "tier": 2
+  },
+  "114044": {
+    "type": "wam",
+    "item": "oasis_gardens",
+    "tier": 3
+  },
+  "114045": {
+    "type": "wam",
+    "item": "scorching_might",
+    "tier": 0
+  },
+  "114046": {
+    "type": "wam",
+    "item": "scorching_might",
+    "tier": 1
+  },
+  "114047": {
+    "type": "wam",
+    "item": "scorching_might",
+    "tier": 2
+  },
+  "114048": {
+    "type": "wam",
+    "item": "scorching_might",
+    "tier": 3
+  },
+  "114049": {
+    "type": "wam",
+    "item": "ancient_chord",
+    "tier": 0
+  },
+  "114050": {
+    "type": "wam",
+    "item": "ancient_chord",
+    "tier": 1
+  },
+  "114051": {
+    "type": "wam",
+    "item": "ancient_chord",
+    "tier": 2
+  },
+  "114052": {
+    "type": "wam",
+    "item": "ancient_chord",
+    "tier": 3
+  },
+  "114053": {
+    "type": "wam",
+    "item": "dewdrop",
+    "tier": 0
+  },
+  "114054": {
+    "type": "wam",
+    "item": "dewdrop",
+    "tier": 1
+  },
+  "114055": {
+    "type": "wam",
+    "item": "dewdrop",
+    "tier": 2
+  },
+  "114056": {
+    "type": "wam",
+    "item": "dewdrop",
+    "tier": 3
+  },
+  "114057": {
+    "type": "wam",
+    "item": "pristine_sea",
+    "tier": 0
+  },
+  "114058": {
+    "type": "wam",
+    "item": "pristine_sea",
+    "tier": 1
+  },
+  "114059": {
+    "type": "wam",
+    "item": "pristine_sea",
+    "tier": 2
+  },
+  "114060": {
+    "type": "wam",
+    "item": "pristine_sea",
+    "tier": 3
+  },
+  "114061": {
+    "type": "wam",
+    "item": "bs_heart",
+    "tier": 0
+  },
+  "114062": {
+    "type": "wam",
+    "item": "bs_heart",
+    "tier": 1
+  },
+  "114063": {
+    "type": "wam",
+    "item": "bs_heart",
+    "tier": 2
+  },
+  "114064": {
+    "type": "wam",
+    "item": "bs_heart",
+    "tier": 3
+  },
+  "114065": {
+    "type": "wam",
+    "item": "delirious",
+    "tier": 0
+  },
+  "114066": {
+    "type": "wam",
+    "item": "delirious",
+    "tier": 1
+  },
+  "114067": {
+    "type": "wam",
+    "item": "delirious",
+    "tier": 2
+  },
+  "114068": {
+    "type": "wam",
+    "item": "delirious",
+    "tier": 3
+  },
+  "114069": {
+    "type": "wam",
+    "item": "night_wind",
+    "tier": 0
+  },
+  "114070": {
+    "type": "wam",
+    "item": "night_wind",
+    "tier": 1
+  },
+  "114071": {
+    "type": "wam",
+    "item": "night_wind",
+    "tier": 2
+  },
+  "114072": {
+    "type": "wam",
+    "item": "night_wind",
+    "tier": 3
+  },
+  "114073": {
+    "type": "wam",
+    "item": "artful_device",
+    "tier": 0
+  },
+  "114074": {
+    "type": "wam",
+    "item": "artful_device",
+    "tier": 1
+  },
+  "114075": {
+    "type": "wam",
+    "item": "artful_device",
+    "tier": 2
+  },
+  "114076": {
+    "type": "wam",
+    "item": "artful_device",
+    "tier": 3
+  },
+  "114077": {
+    "type": "wam",
+    "item": "flint",
+    "tier": 0
+  },
+  "114078": {
+    "type": "wam",
+    "item": "flint",
+    "tier": 1
+  },
+  "114079": {
+    "type": "wam",
+    "item": "flint",
+    "tier": 2
+  },
+  "114080": {
+    "type": "wam",
+    "item": "flint",
+    "tier": 3
+  },
+  "114081": {
+    "type": "wam",
+    "item": "far_north_scions",
+    "tier": 0
+  },
+  "114082": {
+    "type": "wam",
+    "item": "far_north_scions",
+    "tier": 1
+  },
+  "114083": {
+    "type": "wam",
+    "item": "far_north_scions",
+    "tier": 2
+  },
+  "114084": {
+    "type": "wam",
+    "item": "far_north_scions",
+    "tier": 3
+  }
+}
