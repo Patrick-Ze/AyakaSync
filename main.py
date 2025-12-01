@@ -223,6 +223,31 @@ async def read_inventory_as_seelie_format(uid: str):
     return result
 
 
+@app.get("/dailyNote", summary="获取实时便笺数据")
+def read_daily_note(role_id: str, server: str = "cn_gf01"):
+    uid = role_id
+    if uid not in uid_config_data:
+        raise HTTPException(status_code=404, detail=f"User with uid {uid} not found in the known list")
+
+    cfg = uid_config_data[uid]
+    headers = {
+        "Accept": "application/json, text/plain, */*",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 12) Mobile miHoYoBBS/2.95.1",
+        "x-rpc-tool_verison": "v6.1.0-gr-cn",
+        "x-rpc-device_id": "512a3462-c6f1-45b3-a81d-8114af1f20b0",
+        "x-rpc-app_version": "2.95.1",
+        "x-rpc-device_fp": "38d81448e5578",
+        "x-rpc-client_type": '5',
+        "Referer": "https://webstatic.mihoyo.com/",
+        "Cookie": cfg['cookie']
+    }
+    api_url = "https://api-takumi-record.mihoyo.com/game_record/app/genshin/api/dailyNote"
+    r = requests.get(api_url, params={"server": server, "role_id": uid}, headers=headers)
+    r.raise_for_status()
+    data = r.json()
+    return data
+
+
 if __name__ == "__main__":
     cwd = os.path.dirname(os.path.abspath(__file__))
     os.chdir(cwd)
