@@ -12,7 +12,15 @@ import requests
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
+import sys
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))
+
+import logging_setup
 from challenge import get_pass_challenge
+
+sys.path.pop()
+
+logger = logging_setup.get_logger('ayaka')
 
 
 def get_path(path: str):
@@ -253,8 +261,10 @@ def read_daily_note(role_id: str, server: str = "cn_gf01"):
     data = r.json()
 
     if data["retcode"] == 1034:
+        logger.info("获取实时便笺时触发验证码")
         challenge = get_pass_challenge(cfg)
         if challenge is not None:
+            logger.info("过验证码成功")
             headers["x-rpc-challenge"] = challenge
             r1 = requests.get(api_url, params={"server": server, "role_id": uid}, headers=headers)
             r1.raise_for_status()
