@@ -12,6 +12,8 @@ import requests
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
+from challenge import get_pass_challenge
+
 
 def get_path(path: str):
     cwd = os.path.dirname(os.path.abspath(__file__))
@@ -113,7 +115,11 @@ def read_config_files():
                 f.truncate()
                 f.flush()
             uid = str(uid)
-            config_data[uid] = {"cookie": data["account"]["cookie"], "ua": data["games"]["cn"]["useragent"]}
+            config_data[uid] = {
+                "cookie": data["account"]["cookie"],
+                "ua": data["games"]["cn"]["useragent"],
+                "device": data["device"],
+            }
     return config_data
 
 
@@ -245,6 +251,14 @@ def read_daily_note(role_id: str, server: str = "cn_gf01"):
     r = requests.get(api_url, params={"server": server, "role_id": uid}, headers=headers)
     r.raise_for_status()
     data = r.json()
+
+    if data["retcode"] == 1034:
+        challenge = get_pass_challenge(cfg)
+        if challenge is not None:
+            headers["x-rpc-challenge"] = challenge
+            r1 = requests.get(api_url, params={"server": server, "role_id": uid}, headers=headers)
+            r1.raise_for_status()
+            data = r1.json()
     return data
 
 
