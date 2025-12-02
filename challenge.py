@@ -6,6 +6,8 @@ from typing import Dict
 
 import requests
 
+import logging_setup
+logger = logging_setup.get_logger('challenge')
 
 def md5(text: str) -> str:
     """
@@ -90,6 +92,15 @@ default_headers = {
 }
 
 
+def log_request(req: requests.models.Response):
+    status = req.status_code
+    url = req.url
+    method = req.request.method
+    time_taken = req.elapsed.total_seconds()
+    log_msg = f"[{method}] {url}  Status: {status}, Time: {time_taken:.4f}s\n{req.text}"
+    logger.debug(log_msg)
+
+
 def get_pass_challenge(config: Dict):
     bbs_get_captcha = f"https://bbs-api.miyoushe.com/misc/api/createVerification?is_high=true"
     headers = default_headers.copy()
@@ -101,6 +112,7 @@ def get_pass_challenge(config: Dict):
         headers["x-rpc-device_fp"] = config["device"]["fp"]
     r1 = requests.get(bbs_get_captcha, headers=headers)
     data = r1.json()
+    log_request(r1)
     if data["retcode"] != 0:
         return None
 
@@ -109,6 +121,7 @@ def get_pass_challenge(config: Dict):
     params = {"gt": gt, "challenge": challenge, "use_v3_model": True, "save_result": False}
     headers = {"accept": "application/json"}
     r2 = requests.get("http://127.0.0.1:9645/pass_nine", headers=headers, params=params)
+    log_request(r2)
     r2.raise_for_status()
     solved_data = r2.json().get("data", {})
     if solved_data.get("result") != "success":
@@ -120,7 +133,9 @@ def get_pass_challenge(config: Dict):
     bbs_captcha_verify = "https://bbs-api.miyoushe.com/misc/api/verifyVerification"
     params = {"geetest_challenge": challenge, "geetest_seccode": validate + "|jordan", "geetest_validate": validate}
     check_req = requests.post(bbs_captcha_verify, headers=headers, json=params)
+    log_request(check_req)
     check = check_req.json()
-    if check["retcode"] == 0:
-        return check["data"]["challenge"]
-    return None
+    if check["retcode"] != 0:
+        return None
+
+    return check["data"]["challenge"]
