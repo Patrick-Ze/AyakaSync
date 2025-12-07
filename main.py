@@ -177,13 +177,12 @@ async def read_inventory_as_good_format(uid: str):
         actual_count = total_num - lack_num  # 实际拥有数量
         if actual_count > 0:
             inventory.append({"id": item["id"], "count": actual_count, "accurate": lack_num != 0})
-    inventory.append({"id": 113021, "count": 999, "accurate": False})
 
     if len(GOOD_id_map) == 0:
         with open(get_path("metadata/MaterialExcelConfigData_idmap_gen.json"), "rt", encoding="utf-8") as f:
             GOOD_id_map = json.load(f)
             GOOD_id_map = {int(k): v for k, v in GOOD_id_map.items()}
-    materials = {GOOD_id_map[i["id"]]: i["count"] for i in inventory}
+    materials = {GOOD_id_map.get(i["id"], f"_UnknownId_{i['id']}"): i["count"] for i in inventory}
     result = {
         "format": "GOOD",
         "version": 3,
@@ -207,12 +206,15 @@ async def read_inventory_as_seelie_format(uid: str):
 
     inventory = []
     for item in overall_consume:
+        if item["id"] not in seelie_metadata:
+            print(f"{item['name']}(id={item['id']}) not found in seelie's metadata")
+            continue
         total_num = item["num"]
         lack_num = item["lack_num"]
         actual_count = total_num - lack_num  # 实际拥有数量
         if actual_count > 0:
-            item_data = seelie_metadata[item['id']].copy()
-            item_data['value'] = actual_count
+            item_data = seelie_metadata[item["id"]].copy()
+            item_data["value"] = actual_count
             inventory.append(item_data)
     # 养成计算器不返回异梦溶媒的数量，固定其数值以便seelie规划使用
     inventory.append({"type": "special", "item": "dream_solvent", "tier": 0, "value": 999})
@@ -226,6 +228,7 @@ if __name__ == "__main__":
     os.chdir(cwd)
 
     import uvicorn
+
     filename = os.path.splitext(os.path.basename(__file__))[0]
     uvicorn.run(
         f"{filename}:app",
