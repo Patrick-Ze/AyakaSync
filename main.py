@@ -5,6 +5,7 @@ import json
 import shutil
 from glob import glob
 from itertools import cycle, islice
+from typing import Dict
 
 import yaml
 import requests
@@ -18,19 +19,43 @@ def get_path(path: str):
     return abs_path
 
 
-def init_delta_request():
-    with open(get_path("metadata/avatar.json"), "rt", encoding="utf-8") as f:
-        avatar_data = json.load(f)
-    with open(get_path("metadata/weapon.json"), "rt", encoding="utf-8") as f:
-        weapon_data = json.load(f)
+def init_delta_request(cfg: Dict):
+    headers = {
+        "Cookie": cfg["cookie"],
+        "Content-Type": "application/json",
+        "Referer": "https://webstatic.mihoyo.com",
+        "User-Agent": cfg["ua"],
+    }
+
+    avatar_api = "https://api-takumi.mihoyo.com/event/e20200928calculate/v1/avatar/list"
+    avatar_filter = {"page": 1, "size": 1000, "is_all": True}
+    r1 = requests.post(avatar_api, json=avatar_filter, headers=headers)
+    r1.raise_for_status()
+    avatar_list = []
+    avatar_data = r1.json()
+    for d in avatar_data["data"]["list"]:
+        skill_list = [i["group_id"] for i in d["skill_list"] if i["max_level"] > 1]
+        # 跳过无技能信息的人偶和多元素的旅行者，避免后面请求计算器API时出错
+        if len(skill_list) == 0 or d["name"] == "旅行者":
+            continue
+        d["skill_id_list"] = skill_list
+        avatar_list.append(d)
+    avatar_list.sort(key=lambda x: x["id"])
+
+    weapon_api = "https://api-takumi.mihoyo.com/event/e20200928calculate/v1/weapon/list"
+    weapon_filter = {"page": 1, "size": 1000, "weapon_levels": [1, 2, 3, 4, 5]}
+    r2 = requests.post(weapon_api, json=weapon_filter, headers=headers)
+    r2.raise_for_status()
+    weapon_data = r2.json()
+    weapon_list = sorted(weapon_data["data"]["list"], key=lambda x: x["id"])
 
     avatar_by_type = {}
-    for avatar in avatar_data:
-        wtype = avatar["weapon_type"]
+    for avatar in avatar_list:
+        wtype = avatar["weapon_cat_id"]
         avatar_by_type.setdefault(wtype, []).append(avatar)
     weapon_by_type = {}
-    for weapon in weapon_data:
-        wtype = weapon["weapon_type"]
+    for weapon in weapon_list:
+        wtype = weapon["weapon_cat_id"]
         weapon_by_type.setdefault(wtype, []).append(weapon)
 
     promotion_deltas = []
@@ -39,16 +64,16 @@ def init_delta_request():
         max_len = max(len(weapons), len(characters))
         cycle_weapons = islice(cycle(weapons), max_len)
         cycle_characters = islice(cycle(characters), max_len)
-        for char, weap in zip(cycle_characters, cycle_weapons):
+        for char, weapon in zip(cycle_characters, cycle_weapons):
             delta = {
                 "avatar_id": char["id"],
                 "avatar_level_current": 1,
                 "avatar_level_target": 90,
-                "skill_list": [{"id": i, "level_current": 1, "level_target": 10} for i in char["skill_list"]],
+                "skill_list": [{"id": i, "level_current": 1, "level_target": 10} for i in char["skill_id_list"]],
                 "weapon": {
-                    "id": weap["id"],
+                    "id": weapon["id"],
                     "level_current": 1,
-                    "level_target": 90,
+                    "level_target": weapon["max_level"],
                 },
             }
             promotion_deltas.append(delta)
@@ -93,7 +118,10 @@ def read_config_files():
 
 
 def get_overall_consume(uid: str, region="cn_gf01"):
+    global deltas
     cfg = uid_config_data[uid]
+    if len(deltas) == 0:
+        deltas = init_delta_request(cfg)
     payload = {"items": deltas, "region": region, "uid": uid}
     headers = {
         "Cookie": cfg["cookie"],
@@ -115,7 +143,7 @@ def get_overall_consume(uid: str, region="cn_gf01"):
 
 GOOD_id_map = {}
 seelie_metadata = {}
-deltas = init_delta_request()
+deltas = {}
 uid_config_data = read_config_files()
 
 
@@ -194,11 +222,10 @@ async def read_inventory_as_seelie_format(uid: str):
 
 
 if __name__ == "__main__":
-    import uvicorn
-
     cwd = os.path.dirname(os.path.abspath(__file__))
     os.chdir(cwd)
 
+    import uvicorn
     filename = os.path.splitext(os.path.basename(__file__))[0]
     uvicorn.run(
         f"{filename}:app",
