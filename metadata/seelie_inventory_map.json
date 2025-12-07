@@ -1884,6 +1884,11 @@
     "item": "radiant_antler",
     "tier": 0
   },
+  "113080": {
+    "type": "element_2",
+    "item": "kuuvahki_core",
+    "tier": 0
+  },
   "114001": {
     "type": "wam",
     "item": "decarabian",
