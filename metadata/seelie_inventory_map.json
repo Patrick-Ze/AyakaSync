@@ -299,6 +299,16 @@
     "item": "moonfall_silver",
     "tier": 0
   },
+  "101268": {
+    "type": "local",
+    "item": "winter_icelea",
+    "tier": 0
+  },
+  "101269": {
+    "type": "local",
+    "item": "pine_amber",
+    "tier": 0
+  },
   "104001": {
     "type": "xp",
     "item": "xp_sub_0",
@@ -1489,6 +1499,21 @@
     "item": "mistshroud",
     "tier": 2
   },
+  "112137": {
+    "type": "common_rare",
+    "item": "deep_shadow",
+    "tier": 0
+  },
+  "112138": {
+    "type": "common_rare",
+    "item": "deep_shadow",
+    "tier": 1
+  },
+  "112139": {
+    "type": "common_rare",
+    "item": "deep_shadow",
+    "tier": 2
+  },
   "113001": {
     "type": "element_2",
     "item": "hurricane_seed",
@@ -1887,6 +1912,26 @@
   "113080": {
     "type": "element_2",
     "item": "kuuvahki_core",
+    "tier": 0
+  },
+  "113081": {
+    "type": "boss",
+    "item": "doctor_mask",
+    "tier": 0
+  },
+  "113082": {
+    "type": "boss",
+    "item": "doctor_madman",
+    "tier": 0
+  },
+  "113083": {
+    "type": "boss",
+    "item": "doctor_elixir",
+    "tier": 0
+  },
+  "113084": {
+    "type": "element_2",
+    "item": "remnant_of_the_dreadwing",
     "tier": 0
   },
   "114001": {
