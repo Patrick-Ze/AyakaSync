@@ -1934,6 +1934,11 @@
     "item": "remnant_of_the_dreadwing",
     "tier": 0
   },
+  "113085": {
+    "type": "element_2",
+    "item": "prismatic_severed_tail",
+    "tier": 0
+  },
   "114001": {
     "type": "wam",
     "item": "decarabian",
