@@ -5,6 +5,7 @@
 // @description  从指定API获取数据，并将其JSON文本存储到多个 localStorage 键中，支持多UID配置、一次性导入所有账号、自动同步和条件重载。
 // @author       Patrick-Ze & Gemini
 // @match        https://seelie.me/*
+// @homepageURL  https://github.com/Patrick-Ze/AyakaSync
 // @grant        GM_xmlhttpRequest
 // @grant        GM_addStyle
 // @run-at       document-idle
@@ -41,8 +42,8 @@
     GM_addStyle(`
         #${BUTTON_ID} {
             position: fixed;
-            top: 20px;
-            left: 20px;
+            top: 16px;
+            left: 60px;
             z-index: 9999;
             background-color: #3b82f6; /* 蓝色背景 */
             color: white;

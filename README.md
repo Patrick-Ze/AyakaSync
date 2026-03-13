@@ -22,7 +22,7 @@
 
 **集成到Seelie网页**
 
-`tool/seelie-for-tampermonkey.js`提供了用于集成到Seelie网页的Tampermonkey脚本，可以[点击此处](https://raw.githubusercontent.com/Patrick-Ze/AyakaSync/refs/heads/main/tool/seelie-for-tampermonkey.js)安装后，修改代码中的如下配置：
+`tool/seelie-for-tampermonkey.js`提供了用于集成到Seelie网页的Tampermonkey脚本，可以[点击此处](https://cdn.jsdelivr.net/gh/Patrick-Ze/AyakaSync@main/tool/seelie-for-tampermonkey.user.js)安装后，修改代码中的如下配置：
 
 配置中的键是你的游戏的UID，值是浏览器`localStorage`的键的名称。
 ```js
@@ -44,7 +44,7 @@
 受养成计算器API的限制：
 
 - 获取的物品数量与游戏实时数据相比，有大约10分钟的延迟
-- 经验书和精锻用矿只能获取到品质最高的那个的数量
+- 可合成的素材的数量可能是考虑合成机制后的数量而非实际数量（但并不影响养成计算）
 - 当背包中的某种物品的数量多于常规养成所需时，获取的物品数量会少于实际数量。例如，如果你有17亿摩拉时
 
 ## Q & A
