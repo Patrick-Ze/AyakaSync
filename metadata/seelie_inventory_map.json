@@ -294,6 +294,11 @@
     "item": "frostlamp_flower",
     "tier": 0
   },
+  "121547": {
+    "type": "local",
+    "item": "frostlamp_flower",
+    "tier": 0
+  },
   "101263": {
     "type": "local",
     "item": "moonfall_silver",
@@ -304,9 +309,24 @@
     "item": "winter_icelea",
     "tier": 0
   },
+  "121548": {
+    "type": "local",
+    "item": "winter_icelea",
+    "tier": 0
+  },
   "101269": {
     "type": "local",
     "item": "pine_amber",
+    "tier": 0
+  },
+  "121545": {
+    "type": "local",
+    "item": "pine_amber",
+    "tier": 0
+  },
+  "101272": {
+    "type": "local",
+    "item": "etherwing_moth",
     "tier": 0
   },
   "104001": {
@@ -1514,6 +1534,21 @@
     "item": "deep_shadow",
     "tier": 2
   },
+  "112140": {
+    "type": "common_rare",
+    "item": "flaming_hilt",
+    "tier": 0
+  },
+  "112141": {
+    "type": "common_rare",
+    "item": "flaming_hilt",
+    "tier": 1
+  },
+  "112142": {
+    "type": "common_rare",
+    "item": "flaming_hilt",
+    "tier": 2
+  },
   "113001": {
     "type": "element_2",
     "item": "hurricane_seed",
@@ -1937,6 +1972,11 @@
   "113085": {
     "type": "element_2",
     "item": "prismatic_severed_tail",
+    "tier": 0
+  },
+  "113086": {
+    "type": "element_2",
+    "item": "plume_of_the_fallen_watcher",
     "tier": 0
   },
   "114001": {
