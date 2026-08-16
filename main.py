@@ -117,12 +117,11 @@ def read_config_files():
     return config_data
 
 
-def get_overall_consume(uid: str, region="cn_gf01"):
+def get_overall_consume(uid: str, region="cn_gf01", batch_size=200):
     global deltas
     cfg = uid_config_data[uid]
     if len(deltas) == 0:
         deltas = init_delta_request(cfg)
-    payload = {"items": deltas, "region": region, "uid": uid}
     headers = {
         "Cookie": cfg["cookie"],
         "Content-Type": "application/json",
@@ -130,15 +129,20 @@ def get_overall_consume(uid: str, region="cn_gf01"):
         "User-Agent": cfg["ua"],
     }
     api_url = "https://api-takumi.mihoyo.com/event/e20200928calculate/v3/batch_compute"
-    r = requests.post(api_url, json=payload, headers=headers)
-    r.raise_for_status()
-    data = r.json()
-    if data.get("retcode") != 0:
-        raise Exception(f"API Error {data.get('retcode')}: {data.get('message')}")
 
-    # 提取背包数据
-    overall_consume = data.get("data", {}).get("overall_consume", [])
-    return overall_consume
+    all_consume = []
+    for i in range(0, len(deltas), batch_size):
+        chunk = deltas[i : i + batch_size]
+        payload = {"items": chunk, "region": region, "uid": uid}
+        r = requests.post(api_url, json=payload, headers=headers)
+        r.raise_for_status()
+        data = r.json()
+        if data.get("retcode") != 0:
+            raise Exception(f"API Error {data.get('retcode')}: {data.get('message')}")
+        consume_chunk = data.get("data", {}).get("overall_consume", [])
+        all_consume.extend(consume_chunk)
+
+    return all_consume
 
 
 GOOD_id_map = {}
