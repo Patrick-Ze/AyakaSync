@@ -19,11 +19,6 @@
     "item": "cecilia",
     "tier": 0
   },
-  "339018": {
-    "type": "local",
-    "item": "cecilia",
-    "tier": 0
-  },
   "100024": {
     "type": "local",
     "item": "windwheel_aster",
@@ -50,11 +45,6 @@
     "tier": 0
   },
   "100030": {
-    "type": "local",
-    "item": "glaze_lilly",
-    "tier": 0
-  },
-  "339019": {
     "type": "local",
     "item": "glaze_lilly",
     "tier": 0
@@ -89,19 +79,14 @@
     "item": "dandelion_seed",
     "tier": 0
   },
-  "100728": {
-    "type": "local",
-    "item": "dandelion_seed",
-    "tier": 0
-  },
-  "339017": {
-    "type": "local",
-    "item": "dandelion_seed",
-    "tier": 0
-  },
   "100058": {
     "type": "local",
     "item": "cor_lapis",
+    "tier": 0
+  },
+  "100728": {
+    "type": "local",
+    "item": "dandelion_seed",
     "tier": 0
   },
   "101201": {
@@ -120,11 +105,6 @@
     "tier": 0
   },
   "101204": {
-    "type": "local",
-    "item": "dendrobium",
-    "tier": 0
-  },
-  "339020": {
     "type": "local",
     "item": "dendrobium",
     "tier": 0
@@ -294,11 +274,6 @@
     "item": "frostlamp_flower",
     "tier": 0
   },
-  "121547": {
-    "type": "local",
-    "item": "frostlamp_flower",
-    "tier": 0
-  },
   "101263": {
     "type": "local",
     "item": "moonfall_silver",
@@ -309,17 +284,7 @@
     "item": "winter_icelea",
     "tier": 0
   },
-  "121548": {
-    "type": "local",
-    "item": "winter_icelea",
-    "tier": 0
-  },
   "101269": {
-    "type": "local",
-    "item": "pine_amber",
-    "tier": 0
-  },
-  "121545": {
     "type": "local",
     "item": "pine_amber",
     "tier": 0
@@ -334,17 +299,27 @@
     "item": "etherwing_moth",
     "tier": 0
   },
+  "101275": {
+    "type": "local",
+    "item": "frostfairy",
+    "tier": 0
+  },
+  "101276": {
+    "type": "local",
+    "item": "flockingweed",
+    "tier": 0
+  },
+  "101277": {
+    "type": "local",
+    "item": "golden_fern",
+    "tier": 0
+  },
   "104001": {
     "type": "xp",
     "item": "xp_sub_0",
     "tier": 0
   },
   "104002": {
-    "type": "xp",
-    "item": "xp_sub_1",
-    "tier": 0
-  },
-  "120292": {
     "type": "xp",
     "item": "xp_sub_1",
     "tier": 0
@@ -847,6 +822,36 @@
   "104364": {
     "type": "talent",
     "item": "vagrancy",
+    "tier": 2
+  },
+  "104365": {
+    "type": "talent",
+    "item": "charity",
+    "tier": 0
+  },
+  "104366": {
+    "type": "talent",
+    "item": "charity",
+    "tier": 1
+  },
+  "104367": {
+    "type": "talent",
+    "item": "charity",
+    "tier": 2
+  },
+  "104368": {
+    "type": "talent",
+    "item": "fortitude",
+    "tier": 0
+  },
+  "104369": {
+    "type": "talent",
+    "item": "fortitude",
+    "tier": 1
+  },
+  "104370": {
+    "type": "talent",
+    "item": "fortitude",
     "tier": 2
   },
   "112002": {
@@ -1569,6 +1574,66 @@
     "item": "lunar_iron",
     "tier": 2
   },
+  "112146": {
+    "type": "common",
+    "item": "ethereal",
+    "tier": 0
+  },
+  "112147": {
+    "type": "common",
+    "item": "ethereal",
+    "tier": 1
+  },
+  "112148": {
+    "type": "common",
+    "item": "ethereal",
+    "tier": 2
+  },
+  "112149": {
+    "type": "common",
+    "item": "chimeric",
+    "tier": 0
+  },
+  "112150": {
+    "type": "common",
+    "item": "chimeric",
+    "tier": 1
+  },
+  "112151": {
+    "type": "common",
+    "item": "chimeric",
+    "tier": 2
+  },
+  "112152": {
+    "type": "common_rare",
+    "item": "accreted",
+    "tier": 0
+  },
+  "112153": {
+    "type": "common_rare",
+    "item": "accreted",
+    "tier": 1
+  },
+  "112154": {
+    "type": "common_rare",
+    "item": "accreted",
+    "tier": 2
+  },
+  "112155": {
+    "type": "common_rare",
+    "item": "life",
+    "tier": 0
+  },
+  "112156": {
+    "type": "common_rare",
+    "item": "life",
+    "tier": 1
+  },
+  "112157": {
+    "type": "common_rare",
+    "item": "life",
+    "tier": 2
+  },
   "113001": {
     "type": "element_2",
     "item": "hurricane_seed",
@@ -2014,6 +2079,16 @@
     "item": "profaned_sprout",
     "tier": 0
   },
+  "113090": {
+    "type": "element_2",
+    "item": "unscorched_blossom_branch",
+    "tier": 0
+  },
+  "113091": {
+    "type": "element_2",
+    "item": "severed_tail_of_the_sky_roamer",
+    "tier": 0
+  },
   "114001": {
     "type": "wam",
     "item": "decarabian",
@@ -2433,5 +2508,105 @@
     "type": "wam",
     "item": "far_north_scions",
     "tier": 3
+  },
+  "114085": {
+    "type": "wam",
+    "item": "pale_star",
+    "tier": 0
+  },
+  "114086": {
+    "type": "wam",
+    "item": "pale_star",
+    "tier": 1
+  },
+  "114087": {
+    "type": "wam",
+    "item": "pale_star",
+    "tier": 2
+  },
+  "114088": {
+    "type": "wam",
+    "item": "pale_star",
+    "tier": 3
+  },
+  "114089": {
+    "type": "wam",
+    "item": "spiritual_nectar",
+    "tier": 0
+  },
+  "114090": {
+    "type": "wam",
+    "item": "spiritual_nectar",
+    "tier": 1
+  },
+  "114091": {
+    "type": "wam",
+    "item": "spiritual_nectar",
+    "tier": 2
+  },
+  "114092": {
+    "type": "wam",
+    "item": "spiritual_nectar",
+    "tier": 3
+  },
+  "114093": {
+    "type": "wam",
+    "item": "frost_emperor",
+    "tier": 0
+  },
+  "114094": {
+    "type": "wam",
+    "item": "frost_emperor",
+    "tier": 1
+  },
+  "114095": {
+    "type": "wam",
+    "item": "frost_emperor",
+    "tier": 2
+  },
+  "114096": {
+    "type": "wam",
+    "item": "frost_emperor",
+    "tier": 3
+  },
+  "120292": {
+    "type": "xp",
+    "item": "xp_sub_1",
+    "tier": 0
+  },
+  "121545": {
+    "type": "local",
+    "item": "pine_amber",
+    "tier": 0
+  },
+  "121547": {
+    "type": "local",
+    "item": "frostlamp_flower",
+    "tier": 0
+  },
+  "121548": {
+    "type": "local",
+    "item": "winter_icelea",
+    "tier": 0
+  },
+  "339017": {
+    "type": "local",
+    "item": "dandelion_seed",
+    "tier": 0
+  },
+  "339018": {
+    "type": "local",
+    "item": "cecilia",
+    "tier": 0
+  },
+  "339019": {
+    "type": "local",
+    "item": "glaze_lilly",
+    "tier": 0
+  },
+  "339020": {
+    "type": "local",
+    "item": "dendrobium",
+    "tier": 0
   }
 }
