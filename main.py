@@ -209,9 +209,10 @@ async def read_inventory_as_seelie_format(uid: str):
     overall_consume = get_overall_consume(uid)
 
     inventory = []
+    missing = []
     for item in overall_consume:
         if item["id"] not in seelie_metadata:
-            print(f"{item['name']}(id={item['id']}) not found in seelie's metadata")
+            missing.append(item)
             continue
         total_num = item["num"]
         lack_num = item["lack_num"]
@@ -220,6 +221,11 @@ async def read_inventory_as_seelie_format(uid: str):
             item_data = seelie_metadata[item["id"]].copy()
             item_data["value"] = actual_count
             inventory.append(item_data)
+    if len(missing) > 0:
+        print(f"{len(missing)} items not found in seelie's metadata")
+        if os.getenv("DEBUG_MODE") is not None:
+            with open("unknown-seelie-inventory.json", "wt", encoding="utf-8") as f:
+                json.dump(missing, f, indent=2, ensure_ascii=False)
     # 养成计算器不返回异梦溶媒的数量，固定其数值以便seelie规划使用
     inventory.append({"type": "special", "item": "dream_solvent", "tier": 0, "value": 999})
 
