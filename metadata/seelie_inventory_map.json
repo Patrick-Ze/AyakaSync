@@ -324,6 +324,11 @@
     "item": "pine_amber",
     "tier": 0
   },
+  "101270": {
+    "type": "local",
+    "item": "teardrop_of_the_moon",
+    "tier": 0
+  },
   "101272": {
     "type": "local",
     "item": "etherwing_moth",
@@ -1549,6 +1554,21 @@
     "item": "flaming_hilt",
     "tier": 2
   },
+  "112143": {
+    "type": "common_rare",
+    "item": "lunar_iron",
+    "tier": 0
+  },
+  "112144": {
+    "type": "common_rare",
+    "item": "lunar_iron",
+    "tier": 1
+  },
+  "112145": {
+    "type": "common_rare",
+    "item": "lunar_iron",
+    "tier": 2
+  },
   "113001": {
     "type": "element_2",
     "item": "hurricane_seed",
@@ -1977,6 +1997,21 @@
   "113086": {
     "type": "element_2",
     "item": "plume_of_the_fallen_watcher",
+    "tier": 0
+  },
+  "113087": {
+    "type": "boss",
+    "item": "counterfeit_resin",
+    "tier": 0
+  },
+  "113088": {
+    "type": "boss",
+    "item": "withered_branch",
+    "tier": 0
+  },
+  "113089": {
+    "type": "boss",
+    "item": "profaned_sprout",
     "tier": 0
   },
   "114001": {
