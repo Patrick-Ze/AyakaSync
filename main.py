@@ -130,7 +130,7 @@ def get_overall_consume(uid: str, region="cn_gf01", batch_size=200):
     }
     api_url = "https://api-takumi.mihoyo.com/event/e20200928calculate/v3/batch_compute"
 
-    all_consume = []
+    all_consume = {}
     for i in range(0, len(deltas), batch_size):
         chunk = deltas[i : i + batch_size]
         payload = {"items": chunk, "region": region, "uid": uid}
@@ -140,9 +140,16 @@ def get_overall_consume(uid: str, region="cn_gf01", batch_size=200):
         if data.get("retcode") != 0:
             raise Exception(f"API Error {data.get('retcode')}: {data.get('message')}")
         consume_chunk = data.get("data", {}).get("overall_consume", [])
-        all_consume.extend(consume_chunk)
+        for i in consume_chunk:
+            existed = all_consume.get(i["id"])
+            if existed is not None:
+                existed["num"] += i["lack_num"]
+                existed["lack_num"] += i["lack_num"]
+            else:
+                all_consume[i["id"]] = i
 
-    return all_consume
+    sorted_consume = sorted(all_consume.values(), key=lambda x: x["id"])
+    return sorted_consume
 
 
 GOOD_id_map = {}
