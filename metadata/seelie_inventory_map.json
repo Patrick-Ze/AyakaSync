@@ -854,6 +854,21 @@
     "item": "fortitude",
     "tier": 2
   },
+  "104371": {
+    "type": "talent",
+    "item": "glory",
+    "tier": 0
+  },
+  "104372": {
+    "type": "talent",
+    "item": "glory",
+    "tier": 1
+  },
+  "104373": {
+    "type": "talent",
+    "item": "glory",
+    "tier": 2
+  },
   "112002": {
     "type": "common",
     "item": "slime",
@@ -2087,6 +2102,11 @@
   "113091": {
     "type": "element_2",
     "item": "severed_tail_of_the_sky_roamer",
+    "tier": 0
+  },
+  "113092": {
+    "type": "element_2",
+    "item": "cracked_armor",
     "tier": 0
   },
   "114001": {

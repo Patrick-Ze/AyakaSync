@@ -34,7 +34,7 @@ def scan_seelie_exported_to_metadata():
         for i in id_ls:
             id_map_to_dups[i] = id_ls
 
-    exported_files = glob("**/*-seelie-inventory.json", recursive=True)
+    exported_files = glob("**/*account*-seelie-inventory.json", recursive=True)
     count = len(exported_files)
     assert count == 1, f"Expect only 1 exported file but exist {count}:\n" + "\n".join(exported_files)
 
