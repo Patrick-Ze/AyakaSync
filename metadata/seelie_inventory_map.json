@@ -299,6 +299,16 @@
     "item": "etherwing_moth",
     "tier": 0
   },
+  "101273": {
+    "type": "local",
+    "item": "fairy_wormwood",
+    "tier": 0
+  },
+  "101274": {
+    "type": "local",
+    "item": "kristallfold",
+    "tier": 0
+  },
   "101275": {
     "type": "local",
     "item": "frostfairy",
@@ -1649,6 +1659,21 @@
     "item": "life",
     "tier": 2
   },
+  "112158": {
+    "type": "common_rare",
+    "item": "snowborn",
+    "tier": 0
+  },
+  "112159": {
+    "type": "common_rare",
+    "item": "snowborn",
+    "tier": 1
+  },
+  "112160": {
+    "type": "common_rare",
+    "item": "snowborn",
+    "tier": 2
+  },
   "113001": {
     "type": "element_2",
     "item": "hurricane_seed",
@@ -2107,6 +2132,11 @@
   "113092": {
     "type": "element_2",
     "item": "cracked_armor",
+    "tier": 0
+  },
+  "113093": {
+    "type": "element_2",
+    "item": "shattered_stability_anchor",
     "tier": 0
   },
   "114001": {
